@@ -1,0 +1,25 @@
+$font-size: 15px;
+$font-family: 'SF Mono', Monaco, 'Lucida Console', monospace;
+$font-color: lch(53 105 40);
+
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  font-size: $font-size;
+  color: $font-color;
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
