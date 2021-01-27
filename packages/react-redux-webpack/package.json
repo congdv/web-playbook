@@ -1,0 +1,37 @@
+{
+  "name": "react-redux-webpack",
+  "version": "1.0.0",
+  "description": "## Why React?",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "client": "npm run build && http-server ./public -p 3000 -c-1"
+  },
+  "author": "Cong Dao",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.12.12",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "http-server": "^0.12.3",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1"
+  }
+}
