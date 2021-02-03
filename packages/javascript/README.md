@@ -10,9 +10,12 @@ A promise has 3 states:
 - Pending: not yet fulfilled or rejected
 
 ## Closure
-"A closure is the combination of a function bundled together (enclosed) with references to its surrounding state( the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.
+"A closure is the combination of a function bundled together (enclosed) with references to its surrounding state( the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function."
+
+"Closure is when a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope."
 
 ## Reference
 
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
 https://www.digitalocean.com/community/tutorials/javascript-promises-for-dummies
+https://github.com/getify/You-Dont-Know-JS/
