@@ -118,6 +118,12 @@ When we create an simple code with Javascript and React, we may encounter the er
 
 **Loader** will try to intercept our dependencies and preprocess them before bundling.
 
+When the main program, import any file from node_modules, we need to update the scope of loaders.
+```
+  include: [path.resolve(__dirname, 'src'), path.resolve('node_modules/react-toastify/dist')]
+```
+
+
 #### Loader
 
 For Javascript code, we can use `babel` to transpile our code. Here are few dependencies for Babel.
